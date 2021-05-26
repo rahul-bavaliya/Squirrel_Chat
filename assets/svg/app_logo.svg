@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="300" version="1.1" width="400" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px">
+
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" id="tailGradient" r="50%">
+            <stop offset="80%" stop-color="#D57931" />
+            <stop offset="100%" stop-color="#D1702C" />
+        </radialGradient>
+
+        <linearGradient id="tailGradient2" x1="40%" x2="0" y1="0" y2="145%">
+            <stop offset="0%" stop-color="#D57931" />
+            <stop offset="100%" stop-color="#D1702C" />
+        </linearGradient>
+    </defs>
+
+    <g id="tail">
+        <circle cx="145" cy="115" fill="url(#tailGradient)" r="75" />
+        <path d="M220,110 V266 L188,266 C168,266 136,244 136,214 V110z"
+            fill="url(#tailGradient2)" />
+        <polygon fill="#AD6326" points="136,139 136,190 124,187" />
+    </g>
+
+
+    <path d="M190,266 V160 H220 Q274,160 274,220 V266z" fill="#F99C3C" id="body" />
+
+    <path d="M190,160 C172,160 172,134 190,134z" fill="#F99C3C" id="right ear" />
+    <path d="M234,160 C252,160 252,134 234,134z" fill="#F99C3C" id="left ear" />
+
+    <g id="eyes">
+        <circle cx="215" cy="195" fill="#FDFDF4" id="eye1" r="13" />
+        <circle cx="250" cy="195" fill="#FDFDF4" id="eye2" r="13" />
+    </g>
+
+    <g id="pupils">
+        <circle cx="215" cy="195" fill="#3A210D" id="pupil1" r="6" />
+        <circle cx="250" cy="195" fill="#3A210D" id="pupil2" r="6" />
+    </g>
+
+    <path d="M232,210 C232,214.5 238,214.5 238,210z" fill="#3A2214" id="nose" />
+    <path d="M220,218 C220,236 248,236 248,218z" fill="#3A2214" id="mouth" />
+    <path d="M228,218 C228,226 240,226 240,218z" fill="#fff" id="tongue" />
+
+    <path d="M209,266 C209,230 259,230 259,266z" fill="#F9B971" id="belly" />
+    <path d="M202,266 C202,256 216,256 216,266z" fill="#3A2214" id="rightLeg" />
+    <path d="M252,266 C252,256 266,256 266,266z" fill="#3A2214" id="leftLeg" />
+
+    <g id="nut">
+        <path d="M306,266 C320,266 320,246 306,246z" fill="#3A2214" />
+        <path d="M316,256 C316,262 326,262 326,256z" fill="#3A2214" />
+        <path d="M306,248 L300,248 C290,248 290,264 300,264 L306,264" fill="#D67A32" />
+    </g>
+</svg>
